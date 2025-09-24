@@ -1,6 +1,27 @@
 @charset "UTF-8";
 /* CSS Document */
+body
+{background-color:#fffede; 
+font-family:Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif"; 
+margin-left: 10%; 
+margin-right: 5%; 
+font-size: 20px;
+color: #0D3A00}
 
-body {
-	background-color: blueviolet;
+header
+{background-color:#91D792;
+color:#fffede; text-align: center; padding-bottom: 20px; padding-top: 10px;}
+
+li
+{ list-style-type: none; display: inline; margin-right: 50px}
+
+h2,h3
+{color: #006B08}
+
+p
+{line-height: 1.5em}
+
+.posttime
+{color: #; font-size: .7em;
+	
 }
