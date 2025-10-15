@@ -1,0 +1,63 @@
+@charset "UTF-8";
+/* CSS Document */
+body{
+	background:#f5edcd;
+	margin:2em;
+	font-family: Open Sans;
+	color:#431f0a;
+	
+}
+
+h1{
+	text-align: center;
+	font-family: Ribeye;
+	font-weight: lighter;
+	font-size: 50px;
+	margin-bottom: .3em;
+	color:#e56e26;
+	
+}
+
+hr {
+	border:none;
+	height:1px;
+	background-color: #431f0a;
+	margin: 2em 3em
+
+}
+
+#blurb {
+	text-align: center;
+	font-style: italic;
+}
+
+#author{
+	font-style: italic; 
+	text-align: center;
+	margin-top:1.5em;
+	font-size:small}
+
+.header{
+	margin:.3em}
+
+.container{
+	display:grid;
+	grid-template-columns: auto auto auto auto;
+	column-gap: 28px
+}
+
+.box h2{
+	font-family: Ribeye;
+	text-align: center;
+}
+
+.box p {text-indent: 2em}
+
+.list {
+	display: flex;
+	gap: 2em;
+	padding-left: 1.5em;
+}
+
+p {text-indent: 2em}
+
