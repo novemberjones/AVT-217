@@ -1,0 +1,78 @@
+@charset "UTF-8";
+/* CSS Document */
+  body {
+    text-align: center;
+    background:url("../img/pumpkin pie.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+
+  }
+
+#container { 
+	margin-top:20vh; 
+
+  }
+
+  p {
+    text-transform:uppercase;
+	font-family: "Birthstone";
+	color:white;
+	font-size: 5em;
+
+  }
+ 
+
+
+/* tell browser don't display it when screen is wider than 768px */
+  .mobile-only {
+    display: none;
+  }
+
+/* tell browser to do the followings when screen is at and narrower than 768px */
+  @media only screen and (max-width: 768px) {
+	  
+    body {
+ 	background-image:url("../img/background.jpg");
+    }
+	  
+
+	   
+    p {
+	font-size: 4em;
+
+	
+
+    }
+	  
+	  #Thanksgiving {
+	margin:0
+		
+	  }
+	  
+	  #Happy {
+	margin:0	  
+		  
+	  }
+	  
+	#mobile
+	  {margin-top:250px}
+	    
+    .mobile-only {
+   	display:block;
+	font-family:"Open Sans";
+	font-weight:300;
+	color:#632d00;	
+
+		
+    }
+	  /* Now the style and content for desktop will not be displied */
+    .desktop-only {
+	display:none;
+
+
+    }
+
+} /* don't forget to close the styles for mobile/
