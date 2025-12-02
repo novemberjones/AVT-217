@@ -9,14 +9,14 @@ color:white;
 text-align: center;
 font-weight:lighter;
 font-family:"Space Grotesk";
-font-size:30px;
+font-size:25px;
 padding:0;
 margin-top:10px}
 
 #title{
-font-size:150px;
+font-size:120px;
 font-family: Michroma;
-margin-top:15%;
+margin-top:14%;
 }
 
 .nav{
@@ -30,7 +30,8 @@ color: white;
 font-family:"Space Grotesk";
 float:right;
 padding:20px;
-font-size:30px
+font-size:25px;
+font-weight:300
 
 
 	
