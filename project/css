@@ -1,0 +1,37 @@
+@charset "UTF-8";
+/* CSS Document */
+
+body{ 
+background:url("elements/backng.png");}
+
+.homepage{
+color:white;
+text-align: center;
+font-weight:lighter;
+font-family:"Space Grotesk";
+font-size:30px;
+padding:0;
+margin-top:10px}
+
+#title{
+font-size:150px;
+font-family: Michroma;
+margin-top:15%;
+}
+
+.nav{
+	top: 0;
+	overflow: hidden;
+}
+
+.nav a{
+text-decoration: none;
+color: white;
+font-family:"Space Grotesk";
+float:right;
+padding:20px;
+font-size:30px
+
+
+	
+}
