@@ -1,23 +1,26 @@
 @charset "UTF-8";
 /* CSS Document */
-
-body{ 
-background:url("elements/backng.png");
-overflow-y: hidden}
-
+body{
+	height: 100%;
+	margin: 0;
+}
 .homepage{
+background:url("img/backng.png");
+overflow-y: hidden;
 color:white;
 text-align: center;
 font-weight:lighter;
 font-family:"Space Grotesk";
 font-size:30px;
-padding:0;
-margin-top:10px}
-
+height: 100%;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+}
 #title{
-font-size:150px;
+font-size:120px;
 font-family: Michroma;
-margin-top:15%;
+margin-top:10%;
 }
 
 .nav{
@@ -30,9 +33,141 @@ text-decoration: none;
 color: white;
 font-family:"Space Grotesk";
 float:right;
-padding:20px;
-font-size:30px
+padding:20px;}
+
+
+
+a:hover {
+color: #FF3CA6; text-decoration:underline}
+	
+
+
+#subtitle{
+padding-bottom:230px;
+margin-bottom:20px;
+}
+
+.about{
+background:url("img/navy.png");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+width:100%;
+font-weight:lighter;
+font-family:"Space Grotesk";
+font-size:30px;
+overflow-x: hidden;
+}
+
+
+#about{
+text-align:center;
+font-size:130px;
+font-family: Michroma;
+color:white;
+margin-top:0;
+-webkit-text-stroke:4px #123942;
+font-weight:400;
+}
+
+
+#header{
+background-image: url("img/header.png");
+background-repeat: no-repeat;
+background-size: cover;
+height:290px;
+}
+
+h1{
+color:white;
+font-family:Montserrat;
+font-weight:400;
+text-align:center;
+font-size:50px;
+margin-top:4%}
+
+#MS
+{color:white;
+font-family:Niramit;
+text-align:center;
+font-weight:200px;
+text-indent:100px;
+margin: 0 90px;
+font-size:40px
+}
+
+#img{text-align: center;
+margin-top:6%}
+
+.information{
+display:flex;
+color:white;
+font-weight:400;
+font-size:40px;
+column-gap:3px;}
+
+#line{
+width:3px;
+height:500px;
+background-color:white;
+margin-left:70px;
+margin-bottom:70px}
+
+#box1
+{margin-right:20px;
+margin-left:160px;
+font-size:50px;
+font-family:Montserrat;}
+
+#box2
+{
+font-size:50px;
+font-family:Montserrat;
+margin-left:160px}
+
+
+.info{
+font-family:Niramit;
+text-align:left;
+font-weight:200;
+font-size:30px;
+}
+
+.socials1{
+font-family:Niramit;
+text-align:left;
+font-weight:200;
+font-size:30px;
+margin-left:5px;
+}
+
+
+.logos{
+height:60px;
+width:auto;
+float: left;
+margin-right:10px;}
+
+
+
+
+
+.footer a{
+text-decoration: none;
+color: #797391;
+font-family:"Space Grotesk";
+padding: 0 120px;
+font-size:20px; 
+margin-bottom:0}
+
+
+
+.footer{
+padding:40;
+background-color:#08021F;}
+
+
 
 
 	
-}
+
