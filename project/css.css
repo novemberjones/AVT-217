@@ -38,7 +38,8 @@ padding:20px;}
 
 
 a:hover {
-color: #FF3CA6; text-decoration:underline}
+color: #FF3CA6;
+text-decoration:underline}
 	
 
 
@@ -149,22 +150,23 @@ float: left;
 margin-right:10px;}
 
 
-
-
-
 .footer a{
 text-decoration: none;
 color: #797391;
 font-family:"Space Grotesk";
-padding: 0 120px;
-font-size:20px; 
-margin-bottom:0}
+font-size:20px;
+}
 
-
+.footer a:hover{
+color: #FF3CA6;
+text-decoration:underline}
 
 .footer{
-padding:40;
-background-color:#08021F;}
+display:flex;
+justify-content: center;
+padding:10px;
+background-color:#08021F;
+gap:400px;}
 
 
 
