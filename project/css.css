@@ -1,172 +1,331 @@
 @charset "UTF-8";
 /* CSS Document */
-body{
-	height: 100%;
-	margin: 0;
-}
-.homepage{
-background:url("img/backng.png");
+body
+{height: 100%;
+margin: 0;}
+
+.homepage
+{background:url("img/backng.png");
 overflow-y: hidden;
-color:white;
-text-align: center;
-font-weight:lighter;
-font-family:"Space Grotesk";
-font-size:30px;
 height: 100%;
 background-position: center;
 background-repeat: no-repeat;
-background-size: cover;
-}
-#title{
-font-size:120px;
-font-family: Michroma;
-margin-top:15%;
-}
+background-size: cover;}
 
-.nav{
-	top: 0;
-	overflow: hidden;
-}
+.nav
+{top: 0;
+overflow: hidden;}
 
-.nav a{
-text-decoration: none;
+.nav a
+{text-decoration: none;
 color: white;
 font-family:"Space Grotesk";
 float:right;
-padding:20px;}
+padding:20px;
+font-size:20px;
+font-weight:lighter;}
 
-
-
-a:hover {
+.nav a:hover {
 color: #FF3CA6;
 text-decoration:underline}
-	
 
+#maintitle{
+font-size:120px;
+font-family: Michroma;
+margin-top:15%;
+color:white;
+text-align:center;
+font-weight:lighter;}
 
-#subtitle{
-padding-bottom:350px;
-margin-bottom:20px;
-}
+#subtitle
+{padding-bottom:350px;
+margin-bottom:5px;
+text-align: center;
+color:white;
+font-size:20px;
+font-weight:lighter;
+font-family:"Space Grotesk";}
 
-.about{
-background:url("img/navy.png");
-background-position: center;
+.footer a
+{text-decoration: none;
+color: #9991b8;
+font-family:"Space Grotesk";
+font-size:17px;
+font-weight:lighter;}
+
+.footer a:hover
+{color: white;
+text-decoration:underline}
+
+.footer
+{display:flex;
+justify-content: center;
+padding:10px;
+background-color:#08021F;
+gap:300px;}
+
+.header
+{background-image: url("img/header.png");
 background-repeat: no-repeat;
 background-size: cover;
-width:100%;
+height:270px;
 font-weight:lighter;
 font-family:"Space Grotesk";
 font-size:30px;
-overflow-x: hidden;
-}
+overflow: hidden;}
 
+.about
+{background:url("img/navy.png");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+width:100%;}
 
-#about{
-text-align:center;
-font-size:130px;
+.title
+{text-align:center;
+font-size:100px;
 font-family: Michroma;
 color:white;
 margin-top:0;
 -webkit-text-stroke:4px #123942;
-font-weight:400;
-}
+font-weight:400;}
 
-
-#header{
-background-image: url("img/header.png");
-background-repeat: no-repeat;
-background-size: cover;
-height:290px;
-}
-
-h1{
-color:white;
+#MS
+{color:white;
 font-family:Montserrat;
 font-weight:400;
 text-align:center;
 font-size:50px;
-margin-top:4%}
+margin-top:70px;}
 
-#MS
+#MS1
 {color:white;
 font-family:Niramit;
 text-align:center;
-font-weight:200px;
-text-indent:100px;
-margin: 0 90px;
-font-size:40px
-}
+font-weight:lighter;
+font-size:40px}
 
-#img{text-align: center;
-margin-top:6%}
+#img
+{text-align: center;
+margin-top:6%;}
 
-.information{
-display:flex;
+.information
+{display:flex;
 color:white;
 font-weight:400;
 font-size:40px;
-column-gap:3px;}
+column-gap:3px;
+margin-top:100px;}
 
-#line{
-width:3px;
+#box1
+{margin-left:250px;
+font-size:40px;
+font-family:Montserrat;}
+
+.info
+{font-family:Niramit;
+text-align:left;
+font-weight:200;
+font-size:30px;}
+
+#line
+{width:3px;
 height:500px;
 background-color:white;
 margin-left:70px;
 margin-bottom:70px}
 
-#box1
-{
-margin-left:350px;
-font-size:50px;
-font-family:Montserrat;}
-
 #box2
-{
-font-size:50px;
+{font-size:40px;
 font-family:Montserrat;
-margin-left:150px}
+margin-left:150px;}
 
-
-.info{
-font-family:Niramit;
-text-align:left;
-font-weight:200;
-font-size:30px;
-}
-
-.socials1{
-font-family:Niramit;
-text-align:left;
-font-weight:200;
-font-size:30px;
-margin-left:5px;
-}
-
-
-.logos{
-height:60px;
+.logos
+{height:60px;
 width:auto;
 float: left;
 margin-right:10px;}
 
+.socials
+{font-family:Niramit;
+text-align:left;
+font-weight:200;
+font-size:30px;
+margin-left:5px;}
 
-.footer a{
-text-decoration: none;
-color: #797391;
-font-family:"Space Grotesk";
-font-size:20px;
-}
+.exhibitions{
+background:url("img/navy.png");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+width:100%;}
 
-.footer a:hover{
-color: #FF3CA6;
-text-decoration:underline}
-
-.footer{
-display:flex;
+.AH
+{display:flex;
 justify-content: center;
-padding:10px;
-background-color:#08021F;
-gap:400px;}
+gap:150px;
+margin-top:40px;}
+
+#piano
+{margin-top:40px;
+margin-left:20px;
+width:auto;
+height:500px;}
+
+.headings
+{color:white;
+font-family:Montserrat;
+font-weight:400;
+font-size:50px;
+margin-right:20px;
+font-style:italic;}
+
+.text
+{font-family:Niramit;
+font-weight:200;
+color:white;
+font-size:35px;
+margin-top:40px;}
+
+.dates
+{font-family:Garamount;
+color:white;
+font-weight:400;
+font-style:italic;
+font-size:30px;
+margin-top:50px;}
+
+.IDT
+{display:flex;
+justify-content: center;
+flex-direction: row-reverse;
+gap:150px;
+margin-top:40px;}
+
+#aliyev
+{width:auto;
+height:500px;
+margin-top:40px}
+
+.POF
+{display:flex;
+justify-content:center;
+gap:160px;
+margin-top:40px;}
+
+#lotus
+{width:auto;
+height:500px;
+margin-top:40px;}
+
+.SOHLIM
+{display:flex;
+gap:100px;
+justify-content:center;
+flex-direction:row-reverse;
+margin-top:40px;
+padding-bottom:80px;}
+
+#sydney
+{width:auto;
+height:500px;
+margin-top:30px;}
+
+.shop
+{background:url("img/navy.png");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+width:100%;}
+
+.headings2
+{font-family:Montserrat;
+color:white;
+font-weight:300;
+text-align:center;
+font-size:70px;
+margin-top:70px;
+margin-bottom:100px;}
+
+.books
+{display:flex;
+justify-content: center;
+gap:90px;}
+
+.text2
+{font-family:Garamount;
+color:white;
+font-weight:400;
+font-style:italic;
+text-align:center;
+font-size:30px;}
+
+#hadid
+{width:auto;
+height:350px;}
+
+.shopimage:hover
+{box-shadow: 1px 1px 25px 15px #e9e9e9}
+
+#utzon
+{width:auto;
+height:350px;}
+
+#albers
+{width:auto;
+height:350px;}
+
+#munari
+{width:auto;
+height:350px;}
+
+.magazines
+{display:flex;
+justify-content:center;
+gap:90px;}
+
+#blue
+{width:auto;
+height:350px;}
+
+#green
+{width:auto;
+height:350px;}
+
+#pink
+{width:auto;
+height:350px;}
+
+#white
+{width:auto;
+height:350px;}
+
+.apparel
+{display:flex;
+justify-content:center;
+gap:60px;
+padding-bottom:50px;}
+
+#loremipsum
+{width:auto;
+height:300px;}
+
+#typography
+{width:auto;
+height:300px;}
+
+#earrings
+{width:auto;
+height:300px;}
+
+#fibonacci
+{width:auto;
+height:300px;}
+
+
+
+
+
 
 
 
